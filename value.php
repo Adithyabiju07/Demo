@@ -12,8 +12,10 @@ function addFiveRef(&$num){
     $num *= 4;
 }
 
-$x = 25;
+$x = 15;
 addFiveRef($x);
 echo "$x <br>";
+
+echo "Hello World";
 
 ?>
